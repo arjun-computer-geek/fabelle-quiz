@@ -1,0 +1,31 @@
+@import url(./style.css);
+
+main .quiz-categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.card-quiz {
+    width: 18rem;
+    min-height: 18rem;
+}
+
+.card-quiz p {
+    color: var(--gray-45);
+    margin: 0.5em 0;
+}
+
+.card-quiz .start-quiz {
+    display: block;
+    text-align: center;
+    background-color: var(--gray-80);
+    border: none;
+    width: 100%;
+    color: var(--gray-00);
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
