@@ -20,9 +20,10 @@
     --blue-dark-translucent: rgba(0, 46, 173, .3);
     --green-light: #acd157;
     --blue-mid: #00acee;
-    --blue-linkedin:#0072b1;
+    --blue-linkedin: #0072b1;
     --purple-mid: #9400d3;
     --green-dark: #00471b;
+    --green-light: #dbf6db36;
     --red-light: #ffadad;
     --red-dark: #850000;
     --love-light: #f8577c;
@@ -49,15 +50,20 @@ a {
     text-decoration: none;
     color: var(--gray-80);
 }
-button{
+
+button {
     cursor: pointer;
 }
-button:focus{
+
+button:focus {
     outline: none;
 }
-li{
-    list-style-type: none;;
+
+li {
+    list-style-type: none;
+    ;
 }
-ul{
+
+ul {
     list-style: square inside url("../images/list.gif");
 }
