@@ -55,3 +55,9 @@ button{
 button:focus{
     outline: none;
 }
+li{
+    list-style-type: none;;
+}
+ul{
+    list-style: square inside url("../images/list.gif");
+}
