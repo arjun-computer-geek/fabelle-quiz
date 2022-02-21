@@ -1,0 +1,177 @@
+@import url('./reset.css');
+.nav{
+    background-color: var(--gray-00);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.my-brand {
+    flex-basis: 20%;
+}
+.nav-icons a{
+    padding-left: 1em;
+    transition: transform .2s;
+}
+.nav-icons a:hover{
+    transform: scale(1.1)
+}
+.nav-icons a span{
+    font-size: 0.8rem;
+}
+.nav-icons a i{
+    font-size: 1.5rem;
+}
+
+/* mian section */
+
+
+main {
+    padding: 0 2em;
+    min-height: 100vh;
+}
+
+main section {
+    padding: 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+}
+
+main section .content {
+    width: 50%;
+    padding: 2em 5em;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section .content h1 {
+    font-size: 3rem;
+}
+
+main section .content p {
+    margin-top: 1em;
+    font-size: 2rem;
+}
+
+main section .represent-img {
+    width: 50%;
+    height: 100vh;
+}
+
+main section .represent-img img {
+    width: 100%;
+    height: 100%;
+}
+main section h2 {
+    border-bottom: 2px solid var(--gray-90);
+}
+main .btn-explore{
+    background-color: var(--gray-80);
+    border: none;
+    color: var(--gray-00);
+    margin-top: 1em;
+}
+main .quiz-categories {
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-categories .categories-container {
+    padding-top: 2rem;
+    width: 90%;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-categories .categories-container .card-container {
+    display: block;
+    background-color: var(--gray-00);
+    width: 15rem;
+    height: 15rem;
+    padding: 1em;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    transition: transform .2s
+}
+.quiz-categories .categories-container .card-container:hover{
+    transform: scale(1.1)
+}
+.quiz-categories .categories-container .card-container .img-wrapper {
+    width: 100%;
+    height: 90%;
+}
+
+.quiz-categories .categories-container .card-container .img-wrapper img {
+    height: 100%;
+    width: 100%;
+}
+
+/* footer section */
+.footer {
+    grid-column: 1 / 13;
+    width: 100%;
+    height: 30vh;
+    background: var(--gray-75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    text-align: center;
+    width: 100%;
+    color: var(--white);
+}
+
+.footer p span {
+    color: crimson;
+}
+
+.footer a {
+    display: flex;
+    background: var(--white);
+    margin: 0 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 6px 10px -1px rgba(255, 255, 255, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+}
+
+.footer a i {
+    font-size: 2.5rem;
+    color: var(--gray-45);
+    transition: transform 0.5s;
+}
+
+.footer a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7), -0.5px -0.5px 0px rgba(255, 255, 255, 1), 0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(19, 18, 18, 0.05);
+    transform: translateY(2px);
+}
+
+.footer a i:hover {
+    transform: scale(0.90);
+}
+
+.footer a:hover .fa-github {
+    color: var(--gray-90);
+}
+
+.footer a:hover .fa-twitter {
+    color: var(--blue-mid);
+}
+
+.footer a:hover .fa-linkedin {
+    color: var(--blue-linkedin);
+}
