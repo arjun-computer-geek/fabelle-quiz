@@ -1,0 +1,76 @@
+@import url('./style.css');
+.result-section{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.result-card{
+    background-color: var(--gray-00);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1.5em;
+    width: 25%;
+    border-radius: 1rem;
+    text-align: center;
+    height: fit-content;
+}
+.result-card img{
+    width: 100%;
+    object-fit: cover;
+}
+.result-card h2{
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.result-card h3{
+    color: var(--gray-15);
+    
+}
+.result-card h4{
+    color: var(--gray-90);
+    font-size: 5rem;
+
+}
+.result-card p{
+    color: var(--gray-15);
+    font-size: 1.5rem;
+
+}
+.result-card p span{
+    color: var(--gray-90);
+    display: inline-block;
+    margin-left: 5rem;
+}
+
+
+.question-wrapper{
+    width: 70%;
+}
+.question-section{
+    padding: 2em;
+    margin-bottom: 2em;
+    border: 1px solid var(--gray-10);
+    background-color: var(--green-light);
+    border-radius: 5px;
+
+}
+.question-num{
+    color: var(--gray-90);
+}
+.questions{
+    margin:  1em 0;
+}
+.options{
+    margin-top: 2rem;
+    display: inline-block;
+    border: 1px solid var(--gray-75);
+    padding: 1rem 4rem ;
+    border-radius: 5px;
+}
+.options ~ .right{
+    color: var(--gray-00);
+    background-color: var(--green-dark) ;
+}
+.options ~ .wrong{
+    color: var(--gray-00);
+    background-color: var(--red-dark) ;
+}
