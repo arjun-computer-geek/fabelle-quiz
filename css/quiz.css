@@ -3,7 +3,7 @@
 .quiz-section{
 display: flex;
 }
-#quiz-container {
+.quiz-container {
     min-height: 60vh;
     width: 50%;
     display: flex;
@@ -16,7 +16,7 @@ display: flex;
     border: 1px solid var(--gray-45);
 }
 
-#question, #option {
+.question, .option {
     height: auto;
     width: 100%;
     text-align: justify;
@@ -24,12 +24,12 @@ display: flex;
     font-size: 1.2rem;
 }
 
-#option {
+.option {
     display: flex;
     flex-direction: column;
 }
 
-#option button {
+.option button {
     background: none;
     border: 2px solid var(--gray-80);
     border-radius: 10px;
@@ -37,7 +37,7 @@ display: flex;
     margin: 10px;
 }
 
-#option button:hover {
+.option button:hover {
     cursor: pointer;
     background: var(--gray-00);
 }
